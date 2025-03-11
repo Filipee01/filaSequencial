@@ -25,7 +25,7 @@ make
 ### Executando o Programa
 
 ```bash
-./build/iniciar
+./build/iniciar.exe
 ```
 
 ### Ou use a compilação direta com o comando:
