@@ -1,4 +1,4 @@
-# Fila Sequencial
+# 👨‍💻 Fila Sequencial
 
 ## Descrição
 
