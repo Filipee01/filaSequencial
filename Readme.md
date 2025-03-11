@@ -1,11 +1,13 @@
 # Fila Sequencial
 
 ## Descrição
+
 Implementação do tipo abstrado de dado fila sequencial em c++. A implementação já acompanha um caso de teste no arquivo main, que demonstra o uso da fila.
 
 ---
 
 ## Estrutura dos arquivos
+
 - **src**: Contém os arquivos de implementação.
 - **include**: Contém o arquivo de cabeçalho da fila.
 - **Makefile**: Arquivo de configuração para a compilação do programa.
@@ -26,10 +28,20 @@ make
 ./build/programa
 ```
 
+### Ou use a compilação direta com o comando:
+
+```bash
+g++ src/*.cpp -Iinclude -o iniciar
+
+iniciar
+```
+
 ---
 
 ## Funcionalidades
+
 O programa permite realizar as seguintes operações na fila sequencial:
+
 - Criar uma fila vazia;
 - Testar se a fila está vazia;
 - Verificar se a fila está cheia;
@@ -42,6 +54,7 @@ O programa permite realizar as seguintes operações na fila sequencial:
 ---
 
 ## Saída do Programa
+
 Funcionamento da fila:
 
 ```
@@ -74,7 +87,3 @@ Fila: 6 5 8 72 99
 Elemento do top: 6
 
 ```
-
-
-
-
